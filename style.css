@@ -186,3 +186,30 @@ span{
 span:visited{
     background-color: #000f94;
 }
+@media only screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container1 {
+       width: 90%;
+        margin-top: 50%;
+    }
+    .para {
+        font-size: 18px;
+    }
+    .inp {
+        width: 50%;
+        
+    }
+    .subbtn {
+        width: 40%;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .image {
+        width: 65%;
+        margin-top: 15px;
+    }
+}
